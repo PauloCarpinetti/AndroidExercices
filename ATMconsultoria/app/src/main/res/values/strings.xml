@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ATM Consultoria</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ATM Consultoria</string>
+    <string name="nav_header_subtitle">atendimento@atm.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_principal">Principal</string>
+    <string name="menu_servico">Serviços</string>
+    <string name="menu_clientes">Clientes</string>
+    <string name="menu_contato">Contato</string>
+    <string name="menu_sobre">Sobre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo1_servicos">Sistema de gestão de qualidade</string>
+    <string name="texto_servicos">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis auctor orci rutrum tortor ultricies mattis. Phasellus porttitor felis nec tempus varius.
+        Nullam et sollicitudin tellus. Nam ullamcorper, velit a fringilla aliquet, erat dolor pharetra augue,
+        quis auctor ipsum dolor id libero. Nulla et neque ex. Mauris scelerisque vitae orci at iaculis.
+        Fusce malesuada elit a sapien faucibus faucibus. Etiam sed egestas ante. Phasellus sit amet porta metus.
+        Pellentesque imperdiet tempus turpis non cursus. Etiam feugiat leo quis porta facilisis.
+        Maecenas ut ullamcorper sapien. Praesent elementum efficitur nulla sed convallis.
+        Quisque dignissim nulla eu dictum scelerisque. Nullam non pretium elit.</string>
+
+    <string name="titulo2_servicos">Indicadores de desenpenho</string>
+
+    <!-- Clientes -->
+    <string name="brasken">Brasken</string>
+    <string name="cielo">Cielo</string>
+    <string name="microsoft">Microsoft</string>
+    <string name="embraer">Embraer</string>
+    <string name="apple">Apple</string>
+    <string name="sansumg">Sansumg</string>
+
+</resources>

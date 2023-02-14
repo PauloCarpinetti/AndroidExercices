@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ricky and Morty</string>
+    <string name="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis dolor est.
+        Nam nisi est, iaculis non condimentum sed, fermentum a enim. In hac habitasse platea dictumst.
+        Vestibulum maximus rutrum laoreet. Morbi mollis dolor sit amet luctus tincidunt.
+        Fusce sollicitudin semper congue. In in ex neque. Duis quis est id mauris convallis rutrum.
+        Pellentesque a pellentesque ex. Fusce euismod massa id justo sollicitudin, eu aliquam sem tristique.
+        Nam vel sem non nibh dignissim maximus quis quis justo. Curabitur id mauris in felis interdum vehicula.
+        Nullam ut pharetra nisi, congue malesuada justo.</string>
+</resources>
