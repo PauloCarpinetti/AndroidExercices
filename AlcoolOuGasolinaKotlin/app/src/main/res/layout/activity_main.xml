@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/imageLogo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textDescricao" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Saiba a melhor opção para o abastecimento do seu carro "
+            android:layout_width="300dp"
+            android:layout_height="50dp" android:id="@+id/textDescricao"
+            android:textSize="18sp" android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/imageLogo"
+            app:layout_constraintBottom_toTopOf="@+id/editTextAlcool" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextAlcool"
+            android:hint="Preço Alcool ex R$ 4.35"
+            app:layout_constraintTop_toBottomOf="@+id/textDescricao"
+            app:layout_constraintBottom_toTopOf="@+id/editTextGasolina" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextGasolina"
+            android:hint="Preço Gasolina ex R$ 5.35"
+            android:numeric="decimal"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAlcool"
+            app:layout_constraintBottom_toTopOf="@+id/buttonCalcular" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+    <TextView
+            android:text="Resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textViewResultado"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/buttonCalcular"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:text="Calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/buttonCalcular"
+            app:layout_constraintTop_toBottomOf="@+id/editTextGasolina"
+            app:layout_constraintBottom_toTopOf="@+id/textViewResultado" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
